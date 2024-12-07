@@ -7,7 +7,7 @@ import google.generativeai as genai
 import os
 
 
-genai.configure(api_key="AIzaSyCEI1TxQOxk5Ci2I6l3su5CxC6ZNrjvyzo")
+genai.configure(api_key=)
 chat_model = genai.GenerativeModel("gemini-1.5-flash")
 
 
